@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main()
+{
+    int i,j,n,m,l,count=0;
+    int a[10];
+    printf("Enter the no. of test cases");
+    scanf("%d",&n);
+    printf("Enter the no. of Elements in an array");
+    scanf("%d",&m);
+    for(i=0;i<n;i++){
+        for(j=0;j<m;j++){
+            scanf("%d",&a[j]);
+            }
+        }
+        for(i=0;i<m;i++){
+            count=0;
+            for(j=i+1;j<m-1;j++){
+                if(a[i]==a[j]){
+                    count++;}
+            }
+                    printf("The number %d has been repeated %d times",a[i],count+1);
+               }
+    }
