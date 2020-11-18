@@ -22,3 +22,4 @@ int main()
                     printf("The number %d has been repeated %d times",a[i],count+1);
                }
     }
+  
